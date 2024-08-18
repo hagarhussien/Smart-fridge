@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_17">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#B85959"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="110dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/logptn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/baseline_logout_24" />
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nextptn"
+        android:text="Next"
+        android:backgroundTint="#AE7D7D"
+        android:layout_marginTop="656dp"
+        android:layout_marginLeft="290dp"
+        android:textColor="#070000"
+        android:textSize="30dp"
+        />
+
+
+</RelativeLayout>

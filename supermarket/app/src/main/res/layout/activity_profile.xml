@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Profile"
+>
+    <RelativeLayout
+
+        android:id="@+id/notBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary"
+
+
+        >
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/logptn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/white"
+
+            android:drawableLeft="@drawable/baseline_logout_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/baseline_person_pin_24"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentLeft="true"
+            />
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/img_18" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/useptn"
+        android:text="User Name"
+        android:textColor="@color/black"
+        android:layout_marginTop="200dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/baseline_person_2_24"
+        android:layout_alignParentLeft="true"
+        android:drawablePadding="20dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Emaptn"
+        android:text="Email"
+        android:textColor="@color/black"
+        android:layout_marginTop="250dp"
+        android:textSize="30dp"
+
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:drawableLeft="@drawable/baseline_attach_email_24"
+        android:drawablePadding="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/homptn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:drawableLeft="@drawable/baseline_add_home_24"
+        android:drawablePadding="20dp"
+        android:text="Address"
+        android:textColor="@color/black"
+        android:layout_alignParentLeft="true"
+
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/settptn"
+        android:text="Settings"
+        android:textColor="@color/black"
+        android:layout_marginTop="400dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+
+        android:drawableLeft="@drawable/baseline_settings_24"
+        android:drawablePadding="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/helpptn"
+        android:text="Help $ feedback"
+        android:textColor="@color/black"
+        android:layout_marginTop="450dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/baseline_help_24"
+        android:layout_alignParentLeft="true"
+
+        android:drawablePadding="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/outptn"
+        android:text="Log out"
+        android:textColor="@color/black"
+        android:layout_marginTop="500dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+
+        android:drawableLeft="@drawable/baseline_logout_24"
+        android:drawablePadding="20dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="42dp"
+        android:text="Button" />
+
+</RelativeLayout>

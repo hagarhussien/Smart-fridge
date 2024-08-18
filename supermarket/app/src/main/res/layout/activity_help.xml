@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <RelativeLayout
+
+        android:id="@+id/notBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary"
+
+
+        >
+    <TextView
+        android:id="@+id/Help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How to use our App"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_alignParentLeft="true"
+
+        />
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Help2"
+        android:text="1)First, after logging in, we enter the main page which is the Notifications page. It contains all the notifications, and buttons for going back, Profile, and Details"
+        android:textColor="@color/black"
+        android:layout_marginTop="90dp"
+        android:textSize="25dp"
+        android:layout_alignParentLeft="true"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Help3"
+        android:text="2)Second, when clicking on the Profile, we enter the Profile page which contains user information, settings, how to log out, and help"
+        android:textColor="@color/black"
+        android:layout_marginTop="250dp"
+        android:textSize="25dp"
+
+
+        android:layout_alignParentLeft="true"
+
+        />
+
+    <TextView
+        android:id="@+id/Help4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+
+        android:drawablePadding="25dp"
+        android:text="3)Third, when clicking on Details, it displays the orders in detail, including the name, address, phone number, and quantity."
+        android:textColor="@color/black"
+        android:layout_alignParentLeft="true"
+
+        android:textSize="25dp"
+        />
+
+
+    <TextView
+        android:id="@+id/Help7"
+        android:text="4)Forth,if there are any other Questions ,cotact us on 01023456789"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="570dp"
+        android:textSize="25dp"
+
+
+        android:layout_alignParentLeft="true"
+
+        android:drawablePadding="20dp" />
+
+
+
+
+</RelativeLayout>

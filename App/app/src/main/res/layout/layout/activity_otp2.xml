@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_17"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/forgetptn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Forget Password"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/hintptn"
+        android:textColor="#757272"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Phone number, we will send you 6 digit verification code"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtptn"
+        android:background="#8A8B0B9F"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_marginTop="310dp"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/conptn"
+        android:text="Confirm"
+        android:textColor="@color/white"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="150dp"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:background="@drawable/round_primary"
+
+        />
+</RelativeLayout>

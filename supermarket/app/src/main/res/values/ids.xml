@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="signUpBtn" type="id" />
+    <item name="account" type="id" />
+    <item name="nextptn" type="id" />
+    <item name="list1" type="id" />
+</resources>

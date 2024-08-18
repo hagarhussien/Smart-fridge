@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+
+    android:orientation="vertical"
+    tools:context=".Details2">
+
+    <RelativeLayout
+
+        android:id="@+id/notBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Details"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentLeft="true"
+        />
+    </RelativeLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/backptn"
+        android:layout_marginTop="-45dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginBottom="1dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/baseline_logout_24"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:gravity="center"/>
+
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:stretchColumns="*"
+        android:gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
+
+        <!-- Row 1 -->
+        <TableRow>
+
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:text="Weight"
+
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:background="#80632BB3"/>
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:text="Product_Name"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:background="#80632BB3"/>
+        </TableRow>
+
+        <!--        &lt;!&ndash; Row 2 &ndash;&gt;-->
+        <!--        <TableRow>-->
+
+        <!--            <EditText-->
+        <!--                android:layout_width="200dp"-->
+        <!--                android:layout_height="50dp"-->
+        <!--                android:background="#32632BB3"-->
+        <!--                android:gravity="center"-->
+        <!--                android:text="Lemon"-->
+        <!--                android:textSize="20dp"-->
+        <!--                tools:ignore="TouchTargetSizeCheck" />-->
+
+        <!--            <TextView-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="50dp"-->
+        <!--                android:text="2K"-->
+        <!--                android:textSize="20dp"-->
+        <!--                android:gravity="center"-->
+        <!--                android:background="#32632BB3"/>-->
+        <!--        </TableRow>-->
+
+        <!--        &lt;!&ndash; Row 3 &ndash;&gt;-->
+        <!--        <TableRow>-->
+
+        <!--            <EditText-->
+        <!--                android:layout_width="200dp"-->
+        <!--                android:layout_height="50dp"-->
+        <!--                android:background="#32632BB3"-->
+        <!--                android:gravity="center"-->
+        <!--                android:text="Orange"-->
+        <!--                android:textSize="20dp"-->
+        <!--                tools:ignore="TouchTargetSizeCheck" />-->
+
+        <!--            <TextView-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="50dp"-->
+        <!--                android:background="#32632BB3"-->
+        <!--                android:gravity="center"-->
+        <!--                android:text="5k"-->
+        <!--                android:textSize="20dp" />-->
+        <!--        </TableRow>-->
+
+        <!--        &lt;!&ndash; Row 4 &ndash;&gt;-->
+        <!--        <TableRow android:layout_height="43dp">-->
+
+        <!--            <EditText-->
+        <!--                android:layout_width="200dp"-->
+        <!--                android:layout_height="50dp"-->
+        <!--                android:background="#32632BB3"-->
+        <!--                android:gravity="center"-->
+        <!--                android:text="Tomatoes"-->
+        <!--                android:textSize="20dp"-->
+        <!--                tools:ignore="TouchTargetSizeCheck" />-->
+
+        <!--            <TextView-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="50dp"-->
+        <!--                android:background="#32632BB3"-->
+        <!--                android:gravity="center"-->
+        <!--                android:text="3k"-->
+        <!--                android:textSize="20dp" />-->
+        <!--        </TableRow>-->
+
+    </TableLayout>
+
+</LinearLayout>

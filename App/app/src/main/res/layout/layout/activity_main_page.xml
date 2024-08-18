@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/img_17"
+android:orientation="vertical"
+    tools:context=".mainPage">
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:id="@+id/notBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left">
+<ImageView
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+   android:background="@drawable/baseline_circle_notifications_24"
+
+/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/profBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+   android:layout_marginLeft="350dp"
+        android:layout_marginTop="-60dp"
+        >
+
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/baseline_person_24"
+
+        />
+    </RelativeLayout>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:layout_gravity="center"
+        android:text="Welcome"
+        android:textColor="#6E08E3"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"/>
+
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+
+        android:gravity="center">
+
+        <!-- Row 1 -->
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Product_Name"
+
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:background="#80632BB3"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Wieght"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:background="#80632BB3"/>
+        </TableRow>
+
+        <!-- Row 2 -->
+        <TableRow>
+
+            <EditText
+                android:layout_width="247dp"
+                android:layout_height="50dp"
+                android:background="#32632BB3"
+                android:gravity="center"
+                android:text="Lemon"
+                android:textSize="20dp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:layout_width="124dp"
+                android:layout_height="50dp"
+                android:text="2K"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:background="#32632BB3"/>
+        </TableRow>
+
+        <!-- Row 3 -->
+        <TableRow>
+
+            <EditText
+                android:layout_width="88dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="Orange"
+                android:textSize="20dp"
+                tools:ignore="TouchTargetSizeCheck"
+                android:background="#32632BB3"/>
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="5k"
+                android:textSize="20dp"
+                android:background="#32632BB3"/>
+        </TableRow>
+
+        <!-- Row 4 -->
+        <TableRow android:layout_height="43dp">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Tomatoes"
+                android:textSize="20dp"
+                tools:ignore="TouchTargetSizeCheck"
+                android:gravity="center"
+                android:background="#32632BB3"/>
+
+            <TextView
+                android:layout_width="222dp"
+                android:layout_height="50dp"
+                android:text="3k"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:background="#32632BB3"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

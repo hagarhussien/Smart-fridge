@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_17"
+    >
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/logptn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/baseline_logout_24" />
+    <EditText
+        android:id="@+id/superptn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Supermarket Phone"
+        android:textSize="30dp"
+        android:padding="2dp"
+        android:layout_marginTop="235dp"
+
+        android:inputType="phone"
+        android:textColorHint="#FFFBFB"
+        android:background="#8A8B0B9F"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"/>
+
+    <EditText
+        android:id="@+id/userEmptn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="290dp"
+        android:hint="Your Email"
+        android:inputType="textEmailAddress"
+        android:padding="2dp"
+
+        android:textSize="30dp"
+        android:textColorHint="#FFFBFB"
+        android:background="#8A8B0B9F"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"/>
+
+    <EditText
+        android:id="@+id/phoneNuptn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+
+        android:layout_marginTop="340dp"
+        android:hint="Your Phone Number"
+        android:inputType="phone"
+        android:padding="2dp"
+
+        android:textSize="30dp"
+        android:textColorHint="#FFFBFB"
+        android:background="#8A8B0B9F"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"/>
+
+
+    <EditText
+        android:id="@+id/orderNaptn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="20dp"
+        android:background="#8A8B0B9F"
+
+        android:hint="Order Number"
+        android:inputType="text"
+        android:padding="2dp"
+        android:textColorHint="#FFFBFB"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/quantptn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginTop="455dp"
+        android:hint="Quantity"
+        android:inputType="number"
+        android:padding="2dp"
+
+        android:textSize="30dp"
+        android:textColorHint="#FFFBFB"
+        android:background="#8A8B0B9F"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"/>
+
+    <Button
+        android:id="@+id/submitptn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:layout_marginTop="590dp"
+        android:layout_marginLeft="150dp"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:background="@drawable/round_primary"
+
+        />
+</RelativeLayout>

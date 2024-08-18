@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.supermarket">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" /> <!-- أذنة إرسال رسائل SMS -->
+    <uses-permission android:name="android.permission.RECEIVE_SMS" /> <!-- أذنة استقبال رسائل SMS -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Supermarket"
+        tools:targetApi="31">
+
+
+
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".OTP2"
+            android:exported="false" />
+        <activity
+            android:name=".MakeSelection"
+            android:exported="false" /> <!-- <activity android:name=".Notification" -->
+        <!-- android:exported="true"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.example.otherapp.RECEIVE_DATA" /> -->
+        <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <activity
+            android:name=".Notification"
+            android:exported="false" />
+        <activity
+            android:name=".OTPVerifiction"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false"
+            tools:ignore="MissingClass" />
+        <activity
+            android:name=".OTP6"
+            android:exported="false" />
+        <activity
+            android:name=".New_Password"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Setting"
+            android:exported="false" />
+        <activity
+            android:name=".Help"
+            android:exported="false"></activity>
+        <activity android:name=".Details2"
+            android:exported="false"></activity>
+    </application>
+
+</manifest>
